@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:map/screen3.dart';
+import 'package:map/setting.dart';
+import 'package:map/splash.dart';
 
 import 'map.dart';
 import 'map2.dart';
@@ -16,7 +19,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
+
         // This is the theme of your application.
         //
         // TRY THIS: Try running your application with "flutter run". You'll see
@@ -35,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MapScreen(),
+      home: splash(),
     );
   }
 }
