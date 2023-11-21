@@ -49,7 +49,7 @@ class screen3 extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Image.asset('assets/images/p.jpeg'),
+                  Image.asset('assets/images/p.jpg'),
                 ],
               ),
               Padding(
@@ -86,7 +86,10 @@ class screen3 extends StatelessWidget {
                     padding: const EdgeInsets.all(10),
                     child: Text(
                       "1:calling you about palatine  ",
-                      style: TextStyle(color: Colors.black, fontSize: 30,fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 30,
+                          fontWeight: FontWeight.bold),
                     ),
                   ),
                   Padding(
@@ -98,7 +101,6 @@ class screen3 extends StatelessWidget {
                   ),
                 ],
               ),
-
             ],
           ),
         ],
